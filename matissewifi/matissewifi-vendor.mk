@@ -248,8 +248,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/samsung/matissewifi/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/samsung/matissewifi/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
