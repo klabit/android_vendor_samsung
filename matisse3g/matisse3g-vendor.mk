@@ -46,3 +46,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse3g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/matisse3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/matisse3g/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+
+$(call inherit-product-if-exists, vendor/samsung/matisse-common/matisse-common-vendor.mk)
