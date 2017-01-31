@@ -44,3 +44,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/matissewifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so
+
+$(call inherit-product-if-exists, vendor/samsung/matisse-common/matisse-common-vendor.mk)
