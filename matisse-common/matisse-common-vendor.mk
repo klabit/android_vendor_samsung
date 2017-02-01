@@ -326,8 +326,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/matisse-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
