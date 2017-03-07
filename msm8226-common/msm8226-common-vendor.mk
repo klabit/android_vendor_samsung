@@ -202,7 +202,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/samsung/msm8226-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmmcamera_cac.so:system/lib/libmmcamera_cac.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libAfSingle.so:system/lib/libAfSingle.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
