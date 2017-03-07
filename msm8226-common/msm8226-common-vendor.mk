@@ -215,7 +215,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
     vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
     vendor/samsung/msm8226-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
-    vendor/samsung/msm8226-common/proprietary/bin/time_daemon:system/bin/time_daemon
+    vendor/samsung/msm8226-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/hw/activity_recognition.msm8226.so:system/vendor/lib/hw/activity_recognition.msm8226.so \
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
