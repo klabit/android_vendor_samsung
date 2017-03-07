@@ -213,7 +213,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/msm8226-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
-    vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so
+    vendor/samsung/msm8226-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
