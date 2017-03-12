@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/samsung/msm8226-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/msm8226-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/msm8226-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/samsung/msm8226-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/msm8226-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/msm8226-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/msm8226-common/proprietary/etc/B08QT_imx175_module_info.xml:system/etc/B08QT_imx175_module_info.xml \
