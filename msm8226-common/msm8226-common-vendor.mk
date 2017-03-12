@@ -238,8 +238,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/msm8226-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/msm8226-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so
-
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/samsung/msm8226-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/samsung/msm8226-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/msm8226-common/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
